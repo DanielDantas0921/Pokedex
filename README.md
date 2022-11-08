@@ -1,5 +1,7 @@
 Um aplicativo de pokédex
 
+Observação: nele você pode apertar no nome do pokémon da lista que ele trazerá as informações do pokémon ou você pode ir no menu em pesquisar e ir na tela e digitar o nome do pokemon minúsculo e ele irá achar caso o nome do pokemon exista, caso contrário ele retorna a tela inicial.
+
 
 Menu aberto
 
