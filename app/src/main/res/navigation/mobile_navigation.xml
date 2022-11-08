@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pokmomapp.view.HomeFragment"
+        android:label="Início"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_nav_home_to_home_Pokemon_Fragment"
+            app:destination="@id/home_Pokemon_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.pokmomapp.view.AboutFragment"
+        android:label="Sobre"
+        tools:layout="@layout/fragment_about"
+
+        />
+    <fragment
+        android:id="@+id/home_Pokemon_Fragment"
+        android:name="com.example.pokmomapp.view.Home_PokemonFragment"
+        android:label="fragment_home_pokemom"
+        tools:layout="@layout/fragment_home_pokemon" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.pokmomapp.view.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_nav_search_to_search_PokemonFragment"
+            app:destination="@id/search_PokemonFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/search_PokemonFragment"
+        android:name="com.example.pokmomapp.view.Search_PokemonFragment"
+        android:label="fragment_search_pokemon"
+        tools:layout="@layout/fragment_search_pokemon" />
+
+
+</navigation>

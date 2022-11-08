@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.Home_PokemonFragment"
+    >
+
+    <ImageView
+        android:id="@+id/img_pokemon_home_pokemon"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/pokemom_papel_de_parede_2"
+
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_nome_pokemom_home_pokemom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:textSize="20sp"
+        android:text="@string/nome_do_pokemom"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_hp_pokemom_home_pokemom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="15sp"
+        android:text="@string/hp_do_pokemom"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_attack_pokemom_home_pokemom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="15sp"
+        android:text="@string/attack_do_pokemom"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_defense_pokemom_home_pokemom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="15sp"
+        android:text="@string/defense_do_pokemom"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_special_attack_pokemom_home_pokemom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="15sp"
+        android:text="@string/special_attack_do_pokemom"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_special_defense_pokemom_home_pokemom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="15sp"
+        android:text="@string/special_defense_do_pokemom"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/tv_speed_pokemom_home_pokemom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="15sp"
+        android:text="@string/speed_do_pokemom"
+        >
+
+    </TextView>
+
+
+
+</LinearLayout>

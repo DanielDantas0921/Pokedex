@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PokémomApp</string>
+    <string name="nome_do_pokemom">Nome do pokémon: %1$s</string>
+    <string name="hp_do_pokemom">Hp: %1$d </string>
+    <string name="attack_do_pokemom">Attack: %1$d</string>
+    <string name="defense_do_pokemom">Defense: %1$d</string>
+    <string name="special_attack_do_pokemom">Special Attack: %1$d</string>
+    <string name="special_defense_do_pokemom">Special Defense: %1$d</string>
+    <string name="speed_do_pokemom">Speed: %1$d</string>
+    <string name="about_description">Este é um aplicativo feito por Daniel Dantas usando imagens do google e usando uma api gratuita de pokémon. As informações dos pokémons todos foi buscado na api</string>
+    <string name="about_version">Versão: %1$s</string>
+</resources>
